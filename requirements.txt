@@ -8,6 +8,7 @@ filelock==3.4.2
 flake8==4.0.1
 gitdb==4.0.9
 GitPython==3.1.26
+greenlet==1.1.2
 identify==2.4.9
 isort==5.10.1
 lazy-object-proxy==1.7.1
@@ -24,6 +25,7 @@ pylint==2.12.2
 PyYAML==6.0
 six==1.16.0
 smmap==5.0.0
+SQLAlchemy==1.4.31
 stevedore==3.5.0
 toml==0.10.2
 tomli==2.0.1
