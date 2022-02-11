@@ -24,3 +24,9 @@ class Pets(Base):
 
     def __repr__(self):
         return f"Pet [name={self.name}]"
+
+    def __eq__(self, __o: object) -> bool:
+        if self.id == __o.id:
+            return True
+
+        return False
